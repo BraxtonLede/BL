@@ -1,0 +1,55 @@
+html
+{
+  background: #1D2127;
+}
+
+ul 
+{
+	list-style-type: none;
+}
+
+	
+
+
+/*	Site Navigation	*/
+
+
+nav.sitenavigation a:link
+{
+	text-decoration: none;
+	color: white;
+}
+
+nav.sitenavigation li.navhome
+{
+	position: absolute;
+	color: white;
+	font-size: 35px;
+	font-family: 'Brush Script MT';
+	top: 25px;
+	left: 25px;
+}
+
+nav.sitenavigation li.navinsta
+{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 35px;
+	right: 25px;
+}
+
+.insta
+{
+	max-height: 24px;
+}
+
+nav.sitenavigation a:visited
+{
+	color: white;
+}
+
+nav.sitenavigation a:hover, nav.sitenavigation a:focus
+{
+	color: gray; 
+}
