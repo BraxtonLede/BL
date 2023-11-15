@@ -13,7 +13,6 @@ ul
 
 /*	Site Navigation	*/
 
-
 nav.sitenavigation a:link
 {
 	text-decoration: none;
@@ -24,8 +23,10 @@ nav.sitenavigation li.navhome
 {
 	position: absolute;
 	color: white;
-	font-size: 35px;
-	font-family: 'Brush Script MT';
+	font-size: 55px;
+	/*font-family: 'Brush Script MT';*/
+	font-family: 'Tangerine';
+	text-shadow: 4px 4px 4px gray;
 	top: 25px;
 	left: 25px;
 }
