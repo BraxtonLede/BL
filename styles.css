@@ -1,6 +1,7 @@
-html
+body
 {
   background: #1D2127;
+  color: white;
 }
 
 ul 
@@ -8,16 +9,14 @@ ul
 	list-style-type: none;
 }
 
-	
-
 
 /*	Site Navigation	*/
 
-nav.sitenavigation a:link
+/*nav
 {
-	text-decoration: none;
-	color: white;
-}
+	border: 2px solid white;
+} */
+
 
 nav.sitenavigation li.navhome
 {
@@ -31,18 +30,31 @@ nav.sitenavigation li.navhome
 	left: 25px;
 }
 
+nav.sitenavigation li.navsocial
+{
+	position: absolute;
+	color: white;
+	top: 30px;
+	right: 25px;
+}
+
 nav.sitenavigation li.navinsta
 {
 	position: absolute;
 	color: white;
-	font-size: 20px;
-	top: 35px;
+	top: 30px;
 	right: 25px;
 }
 
 .insta
 {
-	max-height: 24px;
+	max-height: 44px;
+}
+
+nav.sitenavigation a:link
+{
+	text-decoration: none;
+	color: white;
 }
 
 nav.sitenavigation a:visited
@@ -53,4 +65,17 @@ nav.sitenavigation a:visited
 nav.sitenavigation a:hover, nav.sitenavigation a:focus
 {
 	color: gray; 
+}
+
+/*	LightMode	*/
+
+.modes
+{
+	position: absolute;
+	bottom: 55px;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }
