@@ -66,16 +66,3 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus
 {
 	color: gray; 
 }
-
-/*	LightMode	*/
-
-.modes
-{
-	position: absolute;
-	bottom: 55px;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-}
