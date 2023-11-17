@@ -12,10 +12,14 @@ ul
 
 /*	Site Navigation	*/
 
-/*nav
+nav
 {
+	position: relative;
+	min-height: 60px;
+	top: 5px;
 	border: 2px solid white;
-} */
+	border-radius: 12px;
+} 
 
 
 nav.sitenavigation li.navhome
@@ -26,24 +30,29 @@ nav.sitenavigation li.navhome
 	/*font-family: 'Brush Script MT';*/
 	font-family: 'Tangerine';
 	text-shadow: 4px 4px 4px gray;
-	top: 25px;
-	left: 25px;
-}
-
-nav.sitenavigation li.navsocial
-{
-	position: absolute;
-	color: white;
-	top: 30px;
-	right: 25px;
+	top: 3px;
+	left: 20px;
 }
 
 nav.sitenavigation li.navinsta
 {
 	position: absolute;
 	color: white;
-	top: 30px;
+	top: 8px;
 	right: 25px;
+}
+nav.sitenavigation li.navresume
+{
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	top: 14px;
+	right: 95px;
+}
+
+li.navresume a:hover, li.navresume a:focus
+{
+	
 }
 
 .insta
