@@ -146,13 +146,12 @@ img.mypicture
 {
 	position: absolute;
 	padding: 8px;
-    top: 135px; 
-    left: 390px; 
-    right: 43px; 
-    bottom: 360px; 
-    border: 2px solid white;
+    	top: 135px; 
+   	left: 390px; 
+    	right: 43px; 
+    	bottom: 360px; 
+    	border: 2px solid white;
 	border-radius: 12px;
-
 	font-size: 30px;
 }
 
