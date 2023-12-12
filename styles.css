@@ -117,15 +117,18 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus
 	border: 2px solid white;
 	border-radius: 12px;
 	overflow: hidden;
+	flex-wrap: wrap;
 }
 
 .border
 {
-	position: absolute;
+	position: fixed;
     top: 137px; 
     left: 48px; 
-    right: 550px; 
-    bottom: 360px; 
+	max-width: 305px;
+	min-width: 305px;
+	max-height: 410px;
+	min-height: 410px;
     border: 2px solid white;
 	border-radius: 12px;
 	z-index: -1;
@@ -146,14 +149,24 @@ img.mypicture
 {
 	position: absolute;
 	padding: 8px;
-    	top: 135px; 
-   	left: 390px; 
-    	right: 43px; 
-    	bottom: 360px; 
-    	border: 2px solid white;
-	border-radius: 12px;
+    top: 135px; 
+    left: 390px; 
+    right: 43px; 
+    bottom: 360px; 
+    /*border: 2px solid white;
+	border-radius: 12px;*/
 	font-size: 30px;
 }
+
+
+ /* Media query to hide the element when the viewport width is 600px or less */
+@media (max-width: 600px) {
+	.navresume
+	{
+		display: none; /* Hide the element */
+	}
+}
+
 
 
 
