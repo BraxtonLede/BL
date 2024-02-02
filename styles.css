@@ -1,6 +1,6 @@
 body
 {
-	background: white;
+	background: rgb(252, 236, 212);
 }
 
 ul 
@@ -36,6 +36,7 @@ nav.sitenavigation li.navlogo
 
 .homelogo
 {
+	/*position: fixed;*/
 	max-height: 100px;
 	transition: transform 0.9s;
 }
@@ -54,6 +55,7 @@ nav.sitenavigation li.navlogo
 	right: 35px;
 	font-size: 25px;
 	font-family: 'Cutive Mono';
+	
 }
 
 .navabout:hover
@@ -119,11 +121,11 @@ nav.sitenavigation li.navlogo
 }
   
   .dot--one {
-    background: #C5796D/*rgb(0, 20, 20)*/;
+    background: #0d1d47/*rgb(0, 20, 20)*/;
   }
   
   .dot--two {
-    background: rgb(252, 236, 212)/*#f48937*/;
+    background: #948E99/*#f48937*/;
     animation-delay: -7s;
   }
   
@@ -148,3 +150,8 @@ nav.sitenavigation li.navlogo
   }
 }
 
+/*	Scroll bar	*/
+
+::-webkit-scrollbar {
+  display: none;
+}
